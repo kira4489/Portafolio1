@@ -26,7 +26,7 @@ body {
   opacity: 0.4;
 }
 
-nav ul {
+#navbar ul {
   list-style-type: none;
   overflow: hidden;
   text-align: center;
@@ -34,11 +34,11 @@ nav ul {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-nav ul li {
+#navbar ul li {
   display: inline-block;
 }
 
-nav ul li a {
+#navbar ul li a {
   display: inline-block;
   color: white;
   padding: 25px;
@@ -116,6 +116,10 @@ nav ul li a {
 
 .texto i {
   padding: 10px;
+}
+
+.proyectos{
+  padding:80px;
 }
 
 /*Footer*/
