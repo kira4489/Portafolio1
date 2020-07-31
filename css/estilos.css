@@ -5,6 +5,7 @@ body {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .imagen {
@@ -82,17 +83,7 @@ nav ul li a {
   padding: 80px;
 }
 
-.profile p {
-  display: flex;
-  width: 70%;
-  justify-content: center;
-  text-align: center;
-  font-size: 30px;
-  border-bottom: 2px solid #fff;
-  margin: 10px auto 40px;
-}
-
-.texto2 p{
+.texto2 {
   font-size: 20px;
   color: #000;
   text-align: justify;
@@ -100,17 +91,30 @@ nav ul li a {
   width: 45%;
 }
 
+.texto3 {
+  text-align: center;
+  width: 70%;
+  padding-bottom: 20px;
+  font-size: 30px;
+  border-bottom: 2px solid #fff;
+  margin: 10px auto 40px;
+}
 
+.texto {
+  position: relative;
+  text-align: center;
+}
 
-.descargar a {
+.texto a {
   text-decoration: none;
   font-size: 20px;
   display: flex;
   justify-content: center;
-  color: #000000;
+  color: blue;
+  margin-top: 50px;
 }
 
-.descargar i {
+.texto i {
   padding: 10px;
 }
 
