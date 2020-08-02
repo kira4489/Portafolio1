@@ -107,6 +107,7 @@
 
 .proyectos {
   padding: 80px;
+  background-color: aliceblue;
 }
 
 .proyectos h2 {
@@ -171,7 +172,7 @@
 
 .formulario{
   padding: 80px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .formulario1 h2{
