@@ -229,11 +229,6 @@
   margin-right: 10px;
 }
 
-.logo-footer img {
-  margin-top: 40px;
-}
-
-
 /*Footer*/
 
 .titulo1 {
@@ -254,6 +249,8 @@ footer {
   flex-wrap: wrap;
   margin: auto;
 }
+
+/*footer*/
 
 @media screen and (max-width: 400px){
  .title h1{
