@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: aliceblue;
-}
-
 .imagen {
   background-image: url(../imagenes/portatil.jpg);
   height: 100vh;
@@ -60,7 +56,7 @@ body {
 .title p {
   text-align: center;
   font-size: 50px;
-  color: red;
+  color: white;
 }
 
 .profile img {
@@ -74,6 +70,7 @@ body {
 
 .profile {
   padding: 80px;
+  background-color: darkgray;
 }
 
 .texto2 {
@@ -171,6 +168,24 @@ body {
   width: 100%;
 }
 
+.formulario{
+  padding: 80px;
+  margin-top: 50px;
+}
+
+.formulario1 h2{
+  display: flex;
+  justify-content: center;
+}
+
+.formulario p{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+
 /*Footer*/
 
 .titulo1 {
@@ -217,10 +232,10 @@ footer .fa-facebook-f {
   color: white;
 }
 
-/* footer .fa-twitter {
+footer .fa-twitter {
   background: #55acee;
   color: white;
-} */
+}
 
 footer .fa-github {
   background: #125688;
