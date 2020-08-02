@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 .imagen {
   background-image: url(../imagenes/portatil.jpg);
   height: 100vh;
@@ -170,17 +174,17 @@
   width: 100%;
 }
 
-.formulario{
+.formulario {
   padding: 80px;
   margin-top: 10px;
 }
 
-.formulario1 h2{
+.formulario1 h2 {
   display: flex;
   justify-content: center;
 }
 
-.formulario p{
+.formulario p {
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -210,7 +214,7 @@
   padding: 20px;
 }
 
-.redes{
+.redes {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -218,14 +222,14 @@
   flex-wrap: wrap;
 }
 
-.redes a{
+.redes a {
   padding: 50px;
   text-decoration: none;
   color: #000;
   text-transform: capitalize;
 }
 
-.redes i{
+.redes i {
   margin-right: 10px;
 }
 
@@ -252,23 +256,24 @@ footer {
 
 /*footer*/
 
-@media screen and (max-width: 400px){
- .title h1{
+@media screen and (max-width: 400px) {
+  .title h1 {
     font-size: 50px;
   }
-  .cuadro img{
+  .cuadro img {
     width: 80%;
     display: block;
     margin-left: 40px;
   }
-  .cuadro a{
+  .cuadro a {
     width: 80%;
     margin-left: 40px;
   }
-  .profile img{
+  .profile img {
     margin-left: -40px;
   }
-  .redes-footer ,.titulo1 p{
+  .redes-footer,
+  .titulo1 p {
     display: flex;
     justify-content: center;
   }
