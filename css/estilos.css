@@ -63,13 +63,6 @@ body {
   color: red;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background: #c3c3c3;
-}
-
 .profile img {
   width: 300px;
   height: 300px;
@@ -114,34 +107,27 @@ body {
   margin-top: 50px;
 }
 
-.texto i {
-  padding: 10px;
+.proyectos {
+  padding: 80px;
 }
 
-
-.proyectos{
-  padding:80px;
-}
-
-.retos{
-  width: 100%;
+.proyectos h2 {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 20px;
+  justify-content: center;
+  margin-bottom: 60px;
 }
 
-.contenerdor,.cuadro{
+.contenerdor,
+.cuadro {
   position: relative;
   border-radius: 10px;
   display: flex;
   align-items: center;
- height: 460px;
+  height: 460px;
   width: 450px;
   padding: 15px;
   margin-top: -100px;
- transition: all .3s;
+  transition: all 0.3s;
 }
 
 .cuadro img {
@@ -150,15 +136,21 @@ body {
   height: 60%;
 }
 
-
-.retos{
+.retos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 20px;
+}
+
+.retos h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .cuadro a {
-  opacity: .8;
+  opacity: 0.8;
   background: #333;
   color: white;
   position: absolute;
@@ -166,16 +158,18 @@ body {
   bottom: 0;
   width: 100%;
   display: flex;
+  text-decoration: none;
+  text-transform: capitalize;
   justify-content: center;
 }
-
 
 .cuadro picture {
   position: relative;
 }
 
-.cuadro img { width: 100%;}
-
+.cuadro img {
+  width: 100%;
+}
 
 /*Footer*/
 
@@ -241,10 +235,3 @@ footer .icon-redes-footer {
   padding: 15px;
   font-size: 15px;
 }
-
-h4 {
-  text-align: center;
-  margin-top: 40px;
-  color: white;
-}
-
