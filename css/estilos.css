@@ -51,6 +51,7 @@
 .title h1 {
   color: orange;
   font-size: 70px;
+  text-align: center;
 }
 
 .title p {
@@ -249,4 +250,21 @@ footer .fa-linkedin {
 footer .icon-redes-footer {
   padding: 15px;
   font-size: 15px;
+}
+
+
+@media screen and (max-width: 400px){
+  .imagen{
+  width: 100%;
+  }
+  .title h1{
+    font-size: 50px;
+  }
+  .cuadro img{
+    width: 40%;
+  }
+  .titulo1{
+    display: flex;
+    justify-content: center;
+  }
 }
