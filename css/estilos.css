@@ -260,6 +260,9 @@ footer {
   .title h1 {
     font-size: 50px;
   }
+  .texto2{
+    width: 100%;
+  }
   .cuadro img {
     width: 80%;
     display: block;
