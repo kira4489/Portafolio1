@@ -283,4 +283,7 @@ footer {
     display: flex;
     justify-content: center;
   }
+  .redes{
+    text-align: center;
+  }
 }
