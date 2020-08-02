@@ -182,9 +182,55 @@
 .formulario p{
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 100px;
 }
 
+.formulario .fa-facebook-f {
+  background: #3b5998;
+  color: white;
+  padding: 20px;
+}
+
+.formulario .fa-twitter {
+  background: #55acee;
+  color: white;
+  padding: 20px;
+}
+
+.formulario .fa-github {
+  background: #125688;
+  color: white;
+  padding: 20px;
+}
+
+.formulario .fa-linkedin {
+  background: #0077b5;
+  color: white;
+  padding: 20px;
+}
+
+.redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.redes a{
+  padding: 50px;
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.redes i{
+  margin-right: 10px;
+}
+
+.logo-footer img {
+  margin-top: 40px;
+}
 
 
 /*Footer*/
@@ -195,6 +241,7 @@
   text-align: center;
   display: flex;
   font-size: 20px;
+  padding: 10px;
 }
 
 footer {
@@ -202,56 +249,10 @@ footer {
   padding: 20px;
   overflow: hidden;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin: auto;
 }
-
-.logo-footer {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin-top: 10px;
-}
-
-.logo-footer img {
-  margin-top: 40px;
-}
-
-.redes-footer {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
-.redes-footer a {
-  margin: 12px;
-}
-
-footer .fa-facebook-f {
-  background: #3b5998;
-  color: white;
-}
-
-footer .fa-twitter {
-  background: #55acee;
-  color: white;
-}
-
-footer .fa-github {
-  background: #125688;
-  color: white;
-}
-footer .fa-linkedin {
-  background: #0077b5;
-  color: white;
-}
-
-footer .icon-redes-footer {
-  padding: 15px;
-  font-size: 15px;
-}
-
 
 @media screen and (max-width: 400px){
   .imagen{
