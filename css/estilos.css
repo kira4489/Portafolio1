@@ -255,14 +255,19 @@ footer {
 }
 
 @media screen and (max-width: 400px){
-  .imagen{
-  width: 100%;
-  }
+  /* .imagen{
+  width: 90%;
+  } */
   .title h1{
     font-size: 50px;
   }
   .cuadro img{
-    width: 40%;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+  .cuadro a{
+
   }
   .redes-footer ,.titulo1 p{
     display: flex;
