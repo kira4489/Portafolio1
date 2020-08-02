@@ -263,7 +263,7 @@ footer .icon-redes-footer {
   .cuadro img{
     width: 40%;
   }
-  .titulo1{
+  .redes-footer ,.titulo1 p{
     display: flex;
     justify-content: center;
   }
