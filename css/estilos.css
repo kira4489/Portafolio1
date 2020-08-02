@@ -275,6 +275,9 @@ footer {
   .profile img {
     margin-left: -40px;
   }
+  .formulario1 h2,p{
+    text-align: center;
+  }
   .redes-footer,
   .titulo1 p {
     display: flex;
